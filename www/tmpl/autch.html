@@ -1,0 +1,54 @@
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left"><a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a></div>
+        <div class="center sliding">Отчеты</div>
+        <div class="right"></div>
+    </div>
+</div>
+<div class="pages">
+    <div data-page="main" class="page no-swipeback no-animation">
+        <div class="page-content">
+            <div class="content-block-title">Авторизация по телефону</div>
+            <div class="card">
+                <div class="card-header">Введите телефон</div>
+                <div class="card-content">
+                    <div class="card-content-inner">
+                      <form id="form_phone" class="list-block">
+                          <ul>
+                              <li id="form_phone_filds_phone">
+                                  <div class="item-content">
+                                        <div class="item-media"><i class="icon f7-icons">phone</i></div>
+                                        <div class="item-inner">
+                                            <div class="item-input">
+                                                <input id="phone" placeholder="+79109101010" name="phone" type="number">
+                                            </div>
+                                      </div>
+                                  </div>
+                              </li>
+                              <li id="form_phone_filds_code" style="display: none">
+                                  <div class="item-content">
+                                        <div class="item-media"><i class="icon f7-icons">lock</i></div>
+                                        <div class="item-inner">
+                                            <div class="item-input">
+                                                <input id="code" placeholder="1234" name="code" type="number">
+                                            </div>
+                                      </div>
+                                  </div>
+                              </li>
+                          </ul>
+                      </form>
+                  </div>
+                </div>
+            </div>
+            <div id="form_phone_error" class="card-content-inner" style="display: none"></div>
+            <div class="card-content-inner">
+                <a href="#" id="form_phone_link_code" class="button button-big color-red">Выслать проверочный код в СМС</a>
+                <a href="#" id="form_phone_link_autch" class="button button-big color-red" style="display: none">Подтвердить код</a>
+            </div>
+        </div>
+    </div>
+</div> 
+
+
+
+
